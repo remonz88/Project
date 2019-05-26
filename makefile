@@ -7,6 +7,7 @@ TITLE:
 	@echo "The title of this project is: guessinggame.sh" >README.md
 
 LINE:
+	@echo "amount of lines in guessinggame.sh" >>README.md
 	@wc -l guessinggame.sh | egrep -o "[0-9]+" >>README.md
 	
 SEE:
